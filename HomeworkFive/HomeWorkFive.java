@@ -35,7 +35,7 @@ public class HomeWorkFive {
         integerListTwo = oddList(integerListTwo);
         System.out.println(integerListTwo);
 
-        // Task_4:
+        // Task_4: 2 реализации, первая подсмотрел в интернете т.к. не помнил как делать, вторую мучал сам...
         List<String> stringListTwo = new ArrayList<>();
         stringListTwo.add("Hello");
         stringListTwo.add("Hello");
@@ -50,7 +50,10 @@ public class HomeWorkFive {
         stringListThree.add("Hello");
         stringListThree.add("Hello");
         stringListThree.add("I'm");
+        stringListThree.add("I'm");
         stringListThree.add("Iahimovici");
+        stringListThree.add("Iahimovici");
+        stringListThree.add("Vladislav");
         stringListThree.add("Vladislav");
         stringListThree.add("Hello");
         stringListThree = noDuplicateListTwo(stringListThree);
@@ -59,9 +62,14 @@ public class HomeWorkFive {
 
     private static List<String> noDuplicateListTwo(List<String> stringList) {
 //        List<String> noDuplicateList = new ArrayList<>();
-        for (int i = 0; i < stringList.size(); i++) {
-            if (stringList.get(0).equalsIgnoreCase(stringList.get(i))) {
-                stringList.remove(i);
+        for (int j = 0; j < stringList.size(); j++) {
+            for (int i = 0 + j; i < stringList.size(); i++) {
+                if (j == i) {
+                    continue;
+                }
+                if (stringList.get(j).equalsIgnoreCase(stringList.get(i))) {
+                    stringList.remove(i);
+                }
             }
         }
         return stringList;
