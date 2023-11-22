@@ -1,6 +1,9 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkTwo;
+package Homeworks.Java_Advanced_Homework.HomeworkTwo;
 
-public class PhoneTwo extends Homeworks.Java_advanced_Homeworks.Phone {
+import Java_advanced.Lessons.Lesson_3.Phone;
+
+public class PhoneTwo extends Phone {
+
 
     private String phoneName;
 
@@ -23,4 +26,10 @@ public class PhoneTwo extends Homeworks.Java_advanced_Homeworks.Phone {
     public PhoneTwo(String model, int number, int weight) {
         super(model, number, weight);
     }
+
+    @Override
+    public void receiveCall() {
+
+    }
+
 }

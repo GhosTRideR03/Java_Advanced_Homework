@@ -1,4 +1,4 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkEight.TaskOne;
+package Homeworks.Java_Advanced_Homework.HomeworkEight.TaskOne;
 
 import java.util.*;
 

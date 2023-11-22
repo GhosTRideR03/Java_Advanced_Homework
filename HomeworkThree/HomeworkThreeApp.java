@@ -1,6 +1,5 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkThree;
+package Homeworks.Java_advanced_Homework.HomeworkThree;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class HomeworkThreeApp {

@@ -1,4 +1,4 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkSeven;
+package Homeworks.Java_advanced_Homework.HomeworkSeven;
 
 public class TaskTwo {
 

@@ -1,4 +1,4 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkFour;
+package Homeworks.Java_Advanced_Homework.HomeworkFour;
 
 public class Card {
     Suit suit;

@@ -1,4 +1,4 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkFive;
+package Homeworks.Java_Advanced_Homework.HomeworkFive;
 
 import java.util.*;
 

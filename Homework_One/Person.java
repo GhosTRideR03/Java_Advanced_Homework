@@ -1,4 +1,4 @@
-package Homeworks.Homework_One;
+package Homeworks.Java_advanced_Homework.Homework_One;
 
 public class Person {
     private String name;
@@ -48,3 +48,4 @@ public class Person {
     }
 
 }
+

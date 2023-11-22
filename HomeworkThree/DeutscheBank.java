@@ -1,4 +1,4 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkThree;
+package Homeworks.Java_advanced_Homework.HomeworkThree;
 
 public class DeutscheBank extends ATM implements Converter {
 

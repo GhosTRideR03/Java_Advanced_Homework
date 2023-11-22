@@ -1,6 +1,9 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkTwo;
+package Homeworks.Java_Advanced_Homework.HomeworkTwo;
 
-import Homeworks.Java_advanced_Homeworks.Phone;
+//import Homeworks.Java_Advanced_Homework.HomeworkTwo.ButtonPhone;
+//import Homeworks.Java_Advanced_Homework.HomeworkTwo.RadioPhone;
+//import Homeworks.Java_Advanced_Homework.HomeworkTwo.SmartPhone;
+//import Homeworks.Java_Advanced_Homework.Phone;
 
 public class HomeworkTwo {
     public static void main(String[] args) {
@@ -23,11 +26,11 @@ public class HomeworkTwo {
         receiveCall(buttonPhone, smartPhone.getOwnNumber());
     }
 
-    public static void makeCall(PhoneTwo phone, int number) {
+    public static void makeCall(SmartPhone phone, int number) {
         System.out.println(phone.getPhoneName() + " is calling number: " + number);
     }
 
-    public static void receiveCall(PhoneTwo phone, int number) {
+    public static void receiveCall(ButtonPhone phone, int number) {
         System.out.println(phone.getPhoneName() + " receiving call from: " + number);
     }
 }

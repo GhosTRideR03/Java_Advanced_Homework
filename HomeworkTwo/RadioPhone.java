@@ -1,4 +1,4 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkTwo;
+package Homeworks.Java_Advanced_Homework.HomeworkTwo;
 
 public class RadioPhone extends PhoneTwo {
     private int ownNumber;

@@ -1,4 +1,7 @@
-package Homeworks.Homework_One;
+package Homeworks.Java_Advanced_Homework.Homework_One;
+
+import Homeworks.Java_advanced_Homework.Homework_One.Person;
+import Homeworks.Java_advanced_Homework.Homework_One.Phone;
 
 public class HomeworkOne {
     public static void main(String[] args) {

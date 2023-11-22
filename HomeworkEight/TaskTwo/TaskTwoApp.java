@@ -1,9 +1,6 @@
-package Homeworks.Java_advanced_Homeworks.HomeworkEight.TaskTwo;
-
-import Homeworks.Java_advanced_Homeworks.HomeworkEight.TaskOne.SortByBookName;
+package Homeworks.Java_Advanced_Homework.HomeworkEight.TaskTwo;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class TaskTwoApp {
 
